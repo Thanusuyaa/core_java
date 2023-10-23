@@ -3,7 +3,7 @@ package com.javapractise;
 
 public class Conversion {
 	public static void main(String[] args) {
-		byte b=10;
+		byte b;
 		int i =257;
 		double d= 323.142;
 		 System.out.println("conversion of int to byte");
@@ -16,5 +16,4 @@ public class Conversion {
 		 b= (byte)d;
 		 System.out.println("d and b "+ d+ " "+ b);
 	}
-
 }
